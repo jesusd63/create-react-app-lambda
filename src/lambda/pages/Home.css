@@ -1,0 +1,217 @@
+.body {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	margin: auto;
+	width: 100%;
+	height: 100vh;
+	overflow: auto;
+	background: linear-gradient(0deg, rgba(255,255,255,1.00), rgba(255,255,255,1.00));
+	background-size: cover;
+}
+
+.sidebar {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 175px;
+	height: 1024px;
+	background: rgba(54,0,234,1.00);
+}
+
+.logo {
+	position: absolute;
+	left: 15px;
+	top: 42px;
+	width: 120px;
+	height: 59.9759521484375px;
+	object-fit: cover;
+	overflow: hidden;
+	display: block;
+}
+
+.user {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0px;
+	gap: 5px;
+
+	position: absolute;
+	width: 150px;
+	height: 83px;
+	left: 12px;
+	top: 124px;
+}
+
+.account1 {
+	position: relative;
+	flex: none;
+	width: 50px;
+	height: 50px;
+	object-fit: cover;
+	overflow: hidden;
+    color: white;
+}
+.Login {
+	position: relative;
+	flex: none;
+	margin-bottom: 5px;
+	width: 150px;
+	height: 28px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	color: rgba(255,255,255,1.00);
+	font-family: Poppins;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 21px;
+}
+
+.navlinks {
+	position: relative;
+	margin-top: 247px;
+	margin-left: 10px;
+	width: 130px;
+	height: 242px;
+	display: block;
+}
+
+.dashboard {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 118px;
+	height: 20px;
+}
+.Dashboard {
+	position: absolute;
+	left: 35px;
+	top: 5px;
+	width: 83px;
+	height: 13px;
+	display: flex;
+	align-items: center;
+	color: rgba(255,255,255,1.00);
+	font-family: Poppins;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 21px;
+}
+.casa1 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 20px;
+	height: 20px;
+	object-fit: cover;
+	overflow: hidden;
+    color: white;
+}
+
+.ajustes {
+	position: absolute;
+	width: 118px;
+	height: 20px;
+	left: 0px;
+	top: 60px;
+}
+.settings1 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 20px;
+	height: 20px;
+	object-fit: cover;
+	overflow: hidden;
+    color: white;
+}
+.Ajustes {
+	position: absolute;
+	left: 35px;
+	top: 4px;
+	width: 83px;
+	height: 13px;
+	display: flex;
+	align-items: center;
+	color: rgba(255,255,255,1.00);
+	font-family: Poppins;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 21px;
+}
+
+.styled-table {
+    border-collapse: collapse;
+    margin: auto;
+    font-size: 0.9rem;
+    font-family: inherit;
+    max-width: 80%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+}
+
+.styled-table thead tr {
+    color: black;
+    text-align: left;
+    border-bottom: 1px solid #000;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #E3E5E8;
+}
+
+.btn {
+    border: none;
+    color: white;
+    padding: 5px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.btn-acceso {
+    background-color: aqua;
+    color: black;
+	text-decoration: none;
+}
+
+.btn-rect {
+    background-color: #008cba;
+}
+
+.btn-cancel {
+    background-color: red;
+}
+
+.btn-op {
+    background-color: blue;
+}
+
+.btn-acceso,
+.btn-rect,
+.btn-cancel,
+.btn-op {
+    font-family: inherit;
+    font-size: .8rem;
+}
+

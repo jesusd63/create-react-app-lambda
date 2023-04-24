@@ -1,6 +1,11 @@
 import React, { Component } from "react"
 import logo from "./logo.svg"
 import "./App.css"
+import {BrowserRouter, Routes, Route} from "react-router-dom";
+import {ToastContainer} from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import "./App.css";
+import Home from "./pages/Home"
 
 class LambdaDemo extends Component {
   constructor(props) {
@@ -34,15 +39,14 @@ class LambdaDemo extends Component {
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <LambdaDemo />
-        </header>
+      <BrowserRouter> 
+        <div className="App">
+        <ToastContainer position="top-center"/>
+        <Routes>
+          <Route exact path="/" element={<Home />}/>
+        </Routes>
       </div>
+      </BrowserRouter>
     )
   }
 }
